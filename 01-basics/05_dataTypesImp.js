@@ -36,4 +36,31 @@ const myFunction = function(){
     console.log("Hello World")
 }  // function obj function
 
-console.log(typeof (myFunction))
+// console.log(typeof (myFunction))
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// memory : stack , Heap
+//stack (Primitive) , Heap (Non Primitive)
+//stack : it gives copy of your value
+let myName = "Kunal"
+let anotherName = myName
+anotherName = "JavaScript"
+
+// console.log(anotherName)
+// console.log(myName)
+
+//heap : we will get refference of the orignal value
+
+let userOne = {
+    email: "user@gmail.com",
+    upi : "user123ybl",
+}
+
+let userTwo = userOne
+
+userTwo.email = "name@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
