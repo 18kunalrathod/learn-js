@@ -45,9 +45,31 @@ const users = [
 ]
 
 users[1].email
-console.log(instagramUser)
-console.log(Object.keys(instagramUser)) // accessing keys
-console.log(Object.values(instagramUser)) // accessing values
-console.log(Object.entries(instagramUser)) // covert key value in one array
+// console.log(instagramUser)
+// console.log(Object.keys(instagramUser)) // accessing keys
+// console.log(Object.values(instagramUser)) // accessing values
+// console.log(Object.entries(instagramUser)) // covert key value in one array
 
 console.log(instagramUser.hasOwnProperty('isLogged'))  // check its property
+
+
+const course = {
+    courseName : "js",
+    price : "999",
+    instructor : "john"
+}
+
+//course.instructor
+
+const {instructor} = course
+
+console.log(instructor);
+
+// JSON
+
+// {
+//     "name" : "kunal",
+//     "courseName" : "js",
+//     "price" : "999",
+//     "instructor" : "john"
+// }
