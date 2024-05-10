@@ -46,8 +46,8 @@ const users = [
 
 users[1].email
 console.log(instagramUser)
-console.log(Object.keys(instagramUser))
-console.log(Object.values(instagramUser))
+console.log(Object.keys(instagramUser)) // accessing keys
+console.log(Object.values(instagramUser)) // accessing values
 console.log(Object.entries(instagramUser)) // covert key value in one array
 
 console.log(instagramUser.hasOwnProperty('isLogged'))  // check its property
